@@ -6,7 +6,7 @@ from matplotlib import pyplot as plot
 
 plot.rcParams.update({'font.size': 20})
 #GEMM,activation,logit_computation,nomralization,arithmetic,pooling,interpolation,embedding,memory,roi,other
-color_scheme = {"GEMM":'#4C443C' , "NonGEMM":'#DEB841', "nomralization":"#DEB841", "activation":"#769FB6", "arithmetic":"#D16666", "interpolation":"#999AC6", "memory":"#55917F",  "other":"#32373B", "pooling":"#BDBBB6", "embedding":"#83D628", "logit_computation":"#254E70", "roi":"#FAE8EB", }
+color_scheme = {"GEMM":'#4C443C' , "NonGEMM":'#DEB841', "nomralization":"#DEB841", "activation":"#769FB6", "arithmetic":"#D16666", "interpolation":"#999AC6", "memory":"#55917F",  "other":"#32373B", "pooling":"#BDBBB6", "embedding":"#83D628", "logit_computation":"#254E70", "roi":"#FAE8EB", "qdq":"#BDBBB6", }
 
 
 color_scheme_haocheng = {"GEMM":'#7A9E9F' , "gemm":'#7A9E9F' ,"NonGEMM":'#DEB841', "nomralization":"#E97C3E", "activation":"#F1F0CC", "arithmetic":"#1D6B8B", "interpolation":"#373F51", "memory":"#373F51",  "other":"#373F51", "pooling":"#373F51", "embedding":"#373F51", "logit_computation":"#E43F6F", "roi":"#373F51", "attention":"#FAE8EB" }
