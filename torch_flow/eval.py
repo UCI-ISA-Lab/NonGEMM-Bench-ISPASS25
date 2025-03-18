@@ -180,7 +180,7 @@ def generate_report (filename):
                         gemm_ops_.append(i)
                         break 
             else: 
-                if ("convolution" in i): 
+                if ("convolution" in i) or ("cutlass::kernel2") in i: 
                     gemm_ops_.append(i)
                 else:
                     non_gemm_ops_.append(i)
